@@ -1,0 +1,23 @@
+{
+  "maggie": {
+    "messages": {
+      "1599236168890": "I found a seashell that sings."
+    }
+  },
+  "milly": {
+    "messages": {
+      "1599236168890": "I made friends with a starfish."
+    }
+  },
+  "molly": {
+    "messages": {
+      "1599236168890": "I was chased by a crab."
+    }
+  },
+  "may": {
+    "messages": {
+      "1599236168890": "I found a stone that represents the human condition.",
+      "1599236192977": "Now I'm sad."
+    }
+  }
+}
