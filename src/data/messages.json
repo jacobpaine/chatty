@@ -1,23 +1,30 @@
 {
-  "maggie": {
-    "messages": {
-      "1599236168890": "I found a seashell that sings."
+  "users": ["maggie", "milly", "molly", "may"],
+  "messages": [
+    {
+      "name": "maggie",
+      "msg": "I found a seashell that sings.",
+      "timestamp": "1599236168890"
+    },
+    {
+      "name": "milly",
+      "msg": "I made friends with a starfish.",
+      "timestamp": "1599236168895"
+    },
+    {
+      "name": "molly",
+      "msg": "I was chased by a crab.",
+      "timestamp": "1599236168900"
+    },
+    {
+      "name": "may",
+      "msg": "I found a stone that represents the human condition.",
+      "timestamp": "1599236168990"
+    },
+    {
+      "name": "may",
+      "msg": "Now I'm sad.",
+      "timestamp": "1599236169990"
     }
-  },
-  "milly": {
-    "messages": {
-      "1599236168890": "I made friends with a starfish."
-    }
-  },
-  "molly": {
-    "messages": {
-      "1599236168890": "I was chased by a crab."
-    }
-  },
-  "may": {
-    "messages": {
-      "1599236168890": "I found a stone that represents the human condition.",
-      "1599236192977": "Now I'm sad."
-    }
-  }
+  ]
 }

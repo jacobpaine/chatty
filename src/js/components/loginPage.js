@@ -1,4 +1,4 @@
-import messages from '../../data/messages.json';
+import data from '../../data/messages.json';
 import chatApp from './chatApp';
 
 let loggedIn;
@@ -21,12 +21,12 @@ const loginError = () => {
 };
 
 const checkUserName = (name) => {
-  const nameCheck = Object.keys(messages).filter(
+  const nameCheck = data.users.filter(
     (el) => el.toLowerCase() === name.toLowerCase()
   );
+
   if (nameCheck[0]) {
-    const messageDisplay = messages[nameCheck].messages;
-    chatApp.load(nameCheck, messageDisplay);
+    chatApp.load(nameCheck[0]);
     loggedIn = true;
   } else {
     loginError();
